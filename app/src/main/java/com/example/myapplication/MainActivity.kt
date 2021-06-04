@@ -13,11 +13,17 @@ class MainActivity : AppCompatActivity() {
 
         var b=20
         dangky()
-
+        //xử lý đăng nhập
+        xulydangnhap()
 
     }
 
     fun dangky(){
         Log.d("dangky", "dangky: ")
+
+    }
+
+    fun xulydangnhap(){
+        Log.d("thinh", "xulydangnhap: ")
     }
 }
